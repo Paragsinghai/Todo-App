@@ -1,0 +1,54 @@
+:root{
+    background-color: rgb(150, 126, 126);
+}
+.box{
+    background-color: rgb(150, 130, 130);
+    border-radius: 50px;
+    padding: 60px 120px;
+    color:#07ab30;
+    width: 300px;
+}
+.heading{
+    font-size: 2rem;
+    margin: 0;
+}
+input{
+    background-color: #80808c;
+    padding: 10px 20px;
+    border: 1px solid rgba(1,1,1,0.2);
+    border-radius: 5px;
+    margin: 0px 10px;
+    color: #edeeff;
+    width: 250px;
+}
+input::placeholder{
+    color: #edeeff;
+}
+.inputform{
+    text-align: left;
+}
+.inputform p{
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.link{
+    color:#015e18;
+}
+.btn{
+    border: none;
+    border-radius: 15px;
+    background-color:#015e18;
+    color: #edeeff;
+    width: 150px;
+}
+.bn{
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+}
+.errmsg{
+    text-align: left;
+    font-size: 0.85rem;
+    color: rgba(245, 53, 53, 0.797);
+}
